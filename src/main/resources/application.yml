@@ -1,0 +1,10 @@
+spring:
+  jpa:
+    hibernate:
+      ddl-auto: create-drop
+    show-sql: true
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://mysqldb.ccujhyzbcqx0.us-east-1.rds.amazonaws.com:3306/user_db
+    username: balaji
+    password: Cognizant-1
